@@ -6,44 +6,42 @@ O sistema centraliza informações essenciais como notas, presenças, faltas, av
 
 ✏️ Funcionalidades Principais
 
-🔑 Acesso ao Sistema
+🔑 1. Acesso ao Sistema
 
-  ☑️ Login
-  ☑️ Registo (signup)
-  ☑️ Perfis com permissões diferentes (Admin, Professor e Aluno)
- 
-🧑‍🦰 Perfis e Funcionalidades
+☑️ Login;
+☑️ Registo (signup);
+☑️ Perfis com permissões diferentes (Admin, Professor e Aluno).
 
-  Administrador
+🧑‍🦰 2. Perfis e Funcionalidades
 
-  ☑️ Cadastro de alunos
-  ☑️ Listagem geral de alunos
-  ☑️ Acesso às informações académicas e comportamentais
-  ☑️ Contato com encarregados em caso de irregularidades
-  ☑️ Cálculo de médias e estatísticas filtradas por curso, classe e turma
+2.1. Administrador
 
-  Professor
+☑️ Cadastro de alunos;
+☑️ Listagem geral de alunos;
+☑️ Acesso às informações académicas e comportamentais;
+☑️ Contato com encarregados em caso de irregularidades;
+☑️ Cálculo de médias e estatísticas filtradas por curso, classe e turma.
 
-☑️ Acesso aos alunos das suas disciplinas
-☑️ Visualização de notas, faltas, turmas e classes
-☑️ Contato direto com encarregados em caso de inquietações
-☑️ Registo e acompanhamento do comportamento do aluno
+2.2. Professor
 
-  Aluno
+☑️ Acesso aos alunos das suas disciplinas;
+☑️ Visualização de notas, faltas, turmas e classes;
+☑️ Contato direto com encarregados em caso de inquietações;
+☑️ Registo e acompanhamento do comportamento do aluno.
 
-☑️ Visualização das próprias notas, faltas e avaliações
-☑️ Indicação das disciplinas com maior e menor dificuldade
-☑️ Criação de um plano de estudo personalizado (mini to-do list)
- 
-💻 Tecnologias Utilizadas:
+2.3. Aluno
 
-☑️ PHP
-☑️ MySQL
-☑️ JavaScript
-☑️ HTML/CSS
-☑️ Arquitetura MVC
+☑️ Visualização das próprias notas, faltas e avaliações;
+☑️ Indicação das disciplinas com maior e menor dificuldades;
+☑️ Criação de um plano de estudo personalizado (mini to-do list).
 
-Este projeto está licenciado sob a MIT License.
+3. 💻 Tecnologias Utilizadas
+
+☑️ PHP;
+☑️ MySQL;
+☑️ JavaScript;
+☑️ HTML/CSS;
+☑️ Arquitetura MVC.
 
 ```
 MIT License
