@@ -14,7 +14,7 @@ Perfis com permissões diferentes (Admin, Professor e Aluno).
 2. 🙋 Perfis e Funcionalidades
 
 2.1. 👨‍💼 Administrador
-Cadastro de alunos;
+Cadastro de alunos;\
 Listagem geral de alunos;
 Acesso às informações académicas e comportamentais;
 Contato com encarregados em caso de irregularidades;
