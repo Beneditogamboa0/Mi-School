@@ -6,32 +6,32 @@ O sistema centraliza informações essenciais como notas, presenças, faltas, av
 
 Funcionalidades Principais
 
-1. Acesso ao Sistema
+1. 🔑 Acesso ao Sistema
 Login;
 Registo (signup);
 Perfis com permissões diferentes (Admin, Professor e Aluno).
 
-2. Perfis e Funcionalidades
+2. 🙋 Perfis e Funcionalidades
 
-2.1. Administrador
+2.1. 👨‍💼 Administrador
 Cadastro de alunos;
 Listagem geral de alunos;
 Acesso às informações académicas e comportamentais;
 Contato com encarregados em caso de irregularidades;
 Cálculo de médias e estatísticas filtradas por curso, classe e turma.
 
-2.2. Professor
+2.2. 👨‍🏫 Professor
 Acesso aos alunos das suas disciplinas;
 Visualização de notas, faltas, turmas e classes;
 Contato direto com encarregados em caso de inquietações;
 Registo e acompanhamento do comportamento do aluno.
 
-2.3. Aluno
+2.3. 👨‍🎓 Aluno
 Visualização das próprias notas, faltas e avaliações;
 Indicação das disciplinas com maior e menor dificuldades;
 Criação de um plano de estudo personalizado (mini to-do list).
 
-3. Tecnologias Utilizadas
+3. 💻 Tecnologias Utilizadas
 
 PHP;
 MySQL;
@@ -39,7 +39,7 @@ JavaScript;
 HTML/CSS;
 Arquitetura MVC.
 
-4. Regras de negócio
+4. 📜 Regras de negócio
 
 4.1. Acesso ao sistema
   a.	Signup
