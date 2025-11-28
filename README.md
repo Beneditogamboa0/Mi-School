@@ -9,7 +9,7 @@ Funcionalidades Principais
 1. 🔑 Acesso ao Sistema\
 Login;\
 Registo (signup);\
-Perfis com permissões diferentes (Admin, Professor e Aluno).\
+Perfis com permissões diferentes (Admin, Professor e Aluno).
 
 2. 🙋 Perfis e Funcionalidades
 
@@ -18,18 +18,18 @@ Cadastro de alunos;\
 Listagem geral de alunos;\
 Acesso às informações académicas e comportamentais;\
 Contato com encarregados em caso de irregularidades;\
-Cálculo de médias e estatísticas filtradas por curso, classe e turma.\
+Cálculo de médias e estatísticas filtradas por curso, classe e turma.
 
 2.2. 👨‍🏫 Professor\
 Acesso aos alunos das suas disciplinas;\
 Visualização de notas, faltas, turmas e classes;\
 Contato direto com encarregados em caso de inquietações;\
-Registo e acompanhamento do comportamento do aluno.\
+Registo e acompanhamento do comportamento do aluno.
 
 2.3. 👨‍🎓 Aluno\
 Visualização das próprias notas, faltas e avaliações;\
 Indicação das disciplinas com maior e menor dificuldades;\
-Criação de um plano de estudo personalizado (mini to-do list).\
+Criação de um plano de estudo personalizado (mini to-do list).
 
 3. 💻 Tecnologias Utilizadas\
 PHP;\
