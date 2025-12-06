@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="modal">
+        <table>
+            <thead>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Município</th>
+                <th>Time</th>
+                <th>Categoria</th>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+    </div>
+    <button type="button" id="btn_modal">Ver Lista de jogadores</button>
+    <span>Cadastrar Atletas</span>
+    <form onsubmit="return addAthlete()">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome">
+        <label for="data">Data de nascimento</label>
+        <input type="date" id="data">
+        <label for="options">Morada (município)</label>
+        <select id="options"></select>
+        <button type="submit">Cadastrar atleta</button>
+    </form>
+</body>
+
+</html>
+<script>
+    function writeMunicipes(arr) {
+        options.innerText = ""
+        arr.forEach((m) => {
+            options.innerHTML += `<option value=${m.id}>${m.nome}</option>`
+        })
+    }
+    async function municipeList() {
+        ans = await fetch("./getMunicipes.php")
+        ans = await ans.json()
+        writeMunicipes(ans)
+    }
+    document.addEventListener("DOMContentLoaded", municipeList)
+
+    async function addAthlete(){
+        event.preventDefault()
+        const athlete={
+            nome:document.getElementById("nome").value,
+            data:document.getElementById("data").value,
+            municipio:document.getElementById("options").value
+        }
+        ans=await fetch("./registerAthletes.php",{
+            method:"post",
+            body:JSON.stringify(athlete)
+        })
+        ans=await ans.text()
+        console.log(ans)
+    }
+    function fillTable(arr){
+        tbody.innerText=""
+        arr.forEach((a)=>{
+            row=document.createElement("tr")
+            row.innerHTML=`
+                <td>${a.nome}</td>
+                <td>${a.data_nascimento}</td>
+                <td>${a.municipio}</td>
+                <td>${a.clube}</td>
+                <td>${a.categoria}</td>
+            `
+            tbody.appendChild(row)
+        })
+    }
+    async function getAthletes(){
+        ans=await fetch("./getAthletes.php")
+        ans=await ans.json()
+        fillTable(ans)
+    }
+    document.addEventListener("DOMContentLoaded",getAthletes)
+
+    function toggleModal(){
+        modal=document.querySelector(".modal")
+        modal.classList.toggle("on")
+    }
+    btn_modal.addEventListener("click",toggleModal)
+</script>
