@@ -17,7 +17,6 @@ Perfis com permissões diferentes (Admin, Professor e Aluno).
   Cadastro de alunos;\
   Listagem geral de alunos;\
   Acesso às informações académicas;\
-  Contato com encarregados em caso de irregularidades;\
   Cálculos de médias e estatísticas avaliados por classe e curso.
 
   2.2. 👨‍🏫 Professor\
